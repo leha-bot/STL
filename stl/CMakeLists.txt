@@ -184,6 +184,7 @@ set(HEADERS
     ${CMAKE_CURRENT_LIST_DIR}/inc/span
     ${CMAKE_CURRENT_LIST_DIR}/inc/sstream
     ${CMAKE_CURRENT_LIST_DIR}/inc/stack
+    ${CMAKE_CURRENT_LIST_DIR}/inc/stacktrace
     ${CMAKE_CURRENT_LIST_DIR}/inc/stdexcept
     ${CMAKE_CURRENT_LIST_DIR}/inc/stop_token
     ${CMAKE_CURRENT_LIST_DIR}/inc/streambuf
@@ -292,6 +293,7 @@ set(SOURCES
     ${CMAKE_CURRENT_LIST_DIR}/src/pplerror.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/ppltasks.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/raisehan.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/src/stacktrace.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/stdhndlr.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/stdthrow.cpp
     ${CMAKE_CURRENT_LIST_DIR}/src/syserror.cpp

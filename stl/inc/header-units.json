@@ -94,6 +94,7 @@
         "span",
         "sstream",
         "stack",
+        "stacktrace",
         "stdexcept",
         "stop_token",
         "streambuf",
